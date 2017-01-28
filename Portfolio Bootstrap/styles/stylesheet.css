@@ -1,0 +1,95 @@
+/*Stylesheet for Portfolio 2 with bootstrap*/
+/* general font styles and background color */
+body {
+	background-color: #fff5ee;
+	font-family: "Times New Roman", serif;
+}
+
+p {
+	font-family: "Times New Roman", serif;
+}
+
+/* Header styles*/
+header h1 {
+	padding: 20px;
+	margin: 0;
+	font-family: "Georgia", serif;
+	text-shadow: 0 2px grey;
+	text-align: left;
+}
+
+
+/* Menu styles, align right in a row, font styles, margins */
+.row nav #menu {
+	display: flex;
+	justify-content: flex-end;
+	background-color: #f5debc;
+	font-family: "Trebuchet MS", sans-serif;
+	padding: 10px;
+	padding-right: 20px;
+	margin: 0;
+}
+
+/* menu list items */
+#menu li {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* jumbotron banner margin and text-align */
+.jumbotron {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	background-image: url("cssimages/flowers.jpg");
+	background-size: cover;
+	margin: 0;
+}
+
+/* jumbotron h3 title color */
+.jumbotron h3 {
+	color: #800000;
+	font-family: "Times New Roman", serif;
+}
+
+.jumbotron p {
+	font-size: 12px;
+}
+
+/* Design works container*/
+.container {
+	margin: auto;
+	text-align: center;
+	padding-top: 20px;
+}
+
+/* print design h2 style */
+.container h3 {
+	font-family: serif;
+	padding-bottom: 20px;
+}
+
+/* book cover images */
+.container .col-sm-2 img {
+	width: 170px;
+	height: 210px;
+	padding: 10px;
+}
+
+.container .col-sm-3 img {
+	width: 250px;
+	padding: 15px;
+}
+
+/* footer */
+footer {
+	padding-right: 30px;
+	font-size: 12px;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+div .email {
+	text-align: center;
+	margin: auto;
+}
