@@ -93,3 +93,9 @@ div .email {
 	text-align: center;
 	margin: auto;
 }
+
+.about {
+			margin: auto;
+			padding: 100px;
+            font-family: 'Times New Roman', serif;
+		}
