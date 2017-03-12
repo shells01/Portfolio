@@ -1,0 +1,144 @@
+/*Stylesheet for Portfolio 2 with bootstrap*/
+/* general font styles and background color */
+body {
+	background-color: white;
+	font-family: "Comfortaa", "Century Gothic", sans-serif;
+	height: 100%;
+	width: 100%;
+}
+
+p {
+	font-family: "Comfortaa", "Century Gothic", sans-serif;
+}
+
+/* Header styles*/
+/*header h1 {
+	padding: 20px;
+	margin: 0;
+	font-family: "Georgia", serif;
+	text-shadow: 0 2px grey;
+	text-align: left;
+}
+*/
+
+
+
+/* Menu styles, align right in a row, font styles, margins */
+.row nav #menu {
+	display: flex;
+	justify-content: flex-end;
+	background-color: white;
+	font-family: "Comfortaa", "Century Gothic", sans-serif;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+
+}
+
+/* menu list items */
+#menu li {
+	padding-left: 20px;
+	padding-right: 20px;
+	color: black;
+}
+
+#menu li a {
+	text-decoration: none;
+	text-decoration-color: black;
+	color: black;
+}
+
+/* about me container text-align */
+#about {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	margin: auto;
+	border-top-style: double;
+	border-bottom-style: double;
+	border-color: gray;
+	background-color: white;
+}
+
+/* jumbotron h3 title color */
+#about h4 {
+	color: gray;
+	font-family: "Comfortaa", "Century Gothic", sans-serif;
+  text-align: center;
+}
+
+#about p {
+	font-size: 16px;
+}
+
+/* Design works container*/
+.container {
+
+	text-align: center;
+	padding-top: 20px;
+}
+
+/* print design h2 style */
+.container h3 {
+	font-family: "Comfortaa", "Century Gothic", inherit;
+	padding-bottom: 20px;
+}
+
+/* book cover images */
+/*.container .col-sm-3 img {
+	width: 170px;
+	height: 210px;
+	padding: 10px;
+} */
+
+.container .col-sm-3 img {
+	padding: 5px;
+	width: 250px;
+}
+
+#website .row {
+	padding: 30px;
+}
+
+#website img {
+	padding: 20px;
+}
+
+#digital {
+	border-top-style: double;
+	border-bottom-style: double;
+	border-color: gray;
+}
+
+/* footer */
+footer {
+	padding-right: 30px;
+	font-size: 12px;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+footer h4 {
+    font-family: serif;
+}
+
+footer img{
+    height: 30px;
+    width: 80px;
+    margin-bottom: 30px;
+}
+
+div .email {
+	text-align: center;
+	margin: auto;
+}
+
+.about {
+			margin: auto;
+			padding: 100px;
+            font-family: 'Times New Roman', serif;
+		}
