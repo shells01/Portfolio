@@ -2,13 +2,13 @@
 /* general font styles and background color */
 body {
 	background-color: white;
-	font-family: "Comfortaa", "Century Gothic", sans-serif;
+	font-family: "Georgia", "Times New Roman", serif;
 	height: 100%;
 	width: 100%;
 }
 
 p {
-	font-family: "Comfortaa", "Century Gothic", sans-serif;
+	font-family: "Georgia", "Times New Roman", serif;
 }
 
 /* Header styles*/
@@ -22,13 +22,12 @@ p {
 */
 
 
-
 /* Menu styles, align right in a row, font styles, margins */
 .row nav #menu {
 	display: flex;
 	justify-content: flex-end;
 	background-color: white;
-	font-family: "Comfortaa", "Century Gothic", sans-serif;
+	font-family: "Georgia", "Times New Roman", serif;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 20px;
@@ -67,7 +66,7 @@ p {
 /* jumbotron h3 title color */
 #about h4 {
 	color: gray;
-	font-family: "Comfortaa", "Century Gothic", sans-serif;
+	font-family: "Georgia", "Times New Roman", serif;
   text-align: center;
 }
 
@@ -79,12 +78,13 @@ p {
 .container {
 
 	text-align: center;
-	padding-top: 20px;
+	padding: 20px;
+
 }
 
 /* print design h2 style */
 .container h3 {
-	font-family: "Comfortaa", "Century Gothic", inherit;
+	font-family: "Georgia", "Times New Roman", serif;
 	padding-bottom: 20px;
 }
 
@@ -95,30 +95,40 @@ p {
 	padding: 10px;
 } */
 
-.container .col-sm-3 img {
+.container .col-sm-2 img {
 	padding: 5px;
-	width: 250px;
+	width: 150px;
+	height: 200px;
+
 }
 
-#website .row {
+/* website section */
+#digital .row #website {
 	padding: 30px;
 }
 
-#website img {
+#digital img {
 	padding: 20px;
+	width: 350px;
+	height: 250px;
+	border: 0.1px;
+	border-width: thin;
+	border-color: grey;
+	border-style: solid;
 }
 
 #digital {
 	border-top-style: double;
 	border-bottom-style: double;
 	border-color: gray;
+	font-family: "Georgia", "Times New Roman", serif;
 }
 
 /* footer */
 footer {
 	padding-right: 30px;
 	font-size: 12px;
-	font-family: sans-serif;
+	font-family: serif;
 	text-align: center;
 }
 
