@@ -47,7 +47,7 @@
 
 	<!-- My design works, book covers -->
 	<section class="container" id="design">
-		<h3>Print Design</h3>
+		<h4>Print Design</h4>
 		<div class="row">
 			<figure class="col-sm-2">
 				<img src="images/USGrant.jpg">
@@ -92,12 +92,16 @@
 	</section>
 
 	<section class="container" id="digital">
-		<h3>Web Development</h3>
+		<h4>Web Development</h4>
 
 			<div class="row" id="website">
 				<figure class="col-sm-4">
 				  <a href="http://livingbook.kr"><h4>Livingbook</h4></a>
-				  <img src="images/LivingbookWebsite.jpg">
+				  <img id="img" src="images/LivingbookWebsite.jpg">
+					<div id="modal" class="modal">
+						<span class="close" onclick="getElementById('modal').style.display='none'">&times;</span>
+						<img class="modal-content" id="livingbookImg">
+					</div>
           <p>A wordpress website I made for the Korean publishing company Livingbook</p>
 				</figure>
 				<figure class="col-sm-4">
@@ -122,5 +126,7 @@
                 <a href="https://www.linkedin.com/in/shelly-ahn-93a13b122/"><img src="images/LinkedInLogo.png" /></a>
 		</div>
 	</footer>
+
+	<script src="script.js"></script>
 </body>
 </html>
