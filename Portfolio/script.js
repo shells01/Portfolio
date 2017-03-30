@@ -1,9 +1,9 @@
 // javascript file for Portfolio website
 // Get the modal
-var modal = document.getElementById('modal');
+var modal = document.getElementById('myModal');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('img');
+var img = document.getElementById('myImg');
 var modalImg = document.getElementById("livingbookImg");
 // var captionText = document.getElementById("caption");
 img.onclick = function(){
@@ -19,3 +19,5 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   modal.style.display = "none";
 }
+
+// 2nd modal image, login padding-leftvar modal = document.getElementById('myModal');

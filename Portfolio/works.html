@@ -2,7 +2,7 @@
 <html>
 <!-- My Portfolio with Bootstrap, index file -->
 <head>
-	<title>Shelly Ahn Portfolio</title>
+	<title>Portfolio</title>
 	<link rel="stylesheet" type="text/css"
         href="styles/stylesheet.css"/>
     <link rel="stylesheet"
@@ -16,16 +16,9 @@
 
 </head>
 
-
 <body>
-	<!-- Header with title/name, don't need? -->
 	<header class="container">
-		<!--<div class="row">
-		 <h3 class="col-sm-4">Shelly Ahn</h3>
-		</div> -->
-		<!-- Navigation bar with menu -->
 		<div class="row">
-
 			<nav>
 				<ul class="list-unstyled" id="menu">
 					<li><a href="Home.html">Home</a></li>
@@ -36,13 +29,6 @@
 			</nav>
 		</div>
 	</header>
-
-	<!-- Jumbotron banner with image and About Me description -->
-	<div class="container" id="about">
-		<h3>Shelly Ahn</h3>
-			<p>graphic design, software development, and linguistics</p>
-
-	</div>
 
 	<!-- My design works, book covers -->
 	<section class="container" id="design">
@@ -92,66 +78,50 @@
 
 	<section class="container" id="digital">
 		<h4>Web Development</h4>
-		<!-- <div class="card-group">
-			<div class="card">
-				<img class="card-img-top" src="images/LivingbookWebsite.jpg" alt="Card image cap">
-				<div class="card-block">
-					<a href="http://livingbook.kr"><h4>Livingbook</h4></a>
-					<p class="card-text">Wordpress homepage for South Korean publishing company Livingbook.</p>
-					<p class="card-text"><small class="text-muted">livingbook.kr</small></p>
-				</div>
-			</div>
-			<div class="card">
-				<img class="card-img-top" src="images/Login.jpg" alt="Card image cap">
-				<div class="card-block">
-					<h4 class="card-title">Login page</h4>
-					<p class="card-text">CSS login page for an early class project.</p>
-					<p class="card-text"><small class="text-muted">Tech Academy</small></p>
-				</div>
-			</div>
-			<div class="card">
-				<img class="card-img-top" src="images/FurnitureWebsite.jpg" alt="Card image cap">
-				<div class="card-block">
-					<h4 class="card-title">Mock furniture homepage</h4>
-					<p class="card-text">Mock furniture homepage for a class project.</p>
-					<p class="card-text"><small class="text-muted">Tech Academy</small></p>
-				</div>
-			</div>
-		</div> -->
 
+		<div class="row" id="website">
 
-			<div class="row" id="website">
-				<figure class="col-sm-4">
-				  <a href="http://livingbook.kr"><h4>Livingbook</h4></a>
-				  <img id="myImg" src="images/LivingbookWebsite.jpg" class="img-responsive">
-					<div id="myModal" class="modal" role="dialog">
-						<div class="modal-dialog modal-lg">
-							<!-- Modal content -->
-							<span class="close" onclick="getElementById('modal').style.display='none'">&times;</span>
-							<img class="modal-content" id="livingbookImg">
-							<p>A wordpress website I made for the Korean publishing company Livingbook</p>
-							<div class="modal-footer">
-        				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      				</div>
+			<figure class="col-sm-4">
+				<a href="http://livingbook.kr"><h4>Livingbook</h4></a>
+				<img id="myImg" src="images/LivingbookWebsite.jpg" class="img-responsive">
+				<div id="myModal" class="modal" role="dialog">
+					<div class="modal-dialog modal-lg">
+						<!-- Modal content -->
+						<span class="close" onclick="getElementById('modal').style.display='none'">&times;</span>
+						<img class="modal-content" id="livingbookImg">
+						<p>A wordpress website I made for the Korean publishing company Livingbook</p>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 						</div>
 					</div>
-					<p>A wordpress website I made for the Korean publishing company Livingbook</p>
-				</figure>
-
-				<figure class="col-sm-4">
-          <h4>Login Page</h4>
-          <img src="images/Login.jpg" class="img-responsive">
-          <p>A CSS login page I made for a class project</p>
-				</figure>
-				<figure class="col-sm-4">
-          <h4>Furniture Store Homepage</h4>
-          <img src="images/FurnitureWebsite.jpg" class="img-responsive">
-          <p>A mock furniture store homepage I made for a class project</p>
-				</figure>
-
 				</div>
+				<p>A wordpress website I made for the Korean publishing company Livingbook</p>
+			</figure>
 
+			<figure class="col-sm-4">
+				<h4>Login Page</h4>
+				<img id="myImg2" src="images/Login.jpg" class="img-responsive">
+				<div id="myModal2" class="modal" role="dialog">
+					<div class="modal-dialog modal-lg">
+						<!-- Modal content -->
+						<span class="close" onclick="getElementById('modal').style.display='none'">&times;</span>
+						<img class="modal-content" id="loginImg">
+						<p>A wordpress website I made for the Korean publishing company Livingbook</p>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+				<p>A CSS login page I made for a class project</p>
+			</figure>
 
+			<figure class="col-sm-4">
+				<h4>Furniture Store Homepage</h4>
+				<img src="images/FurnitureWebsite.jpg" class="img-responsive">
+				<p>A mock furniture store homepage I made for a class project</p>
+			</figure>
+
+			</div>
 	</section>
 
 	<footer class="container" id="footer">
