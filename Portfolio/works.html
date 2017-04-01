@@ -78,50 +78,69 @@
 
 	<section class="container" id="digital">
 		<h4>Web Development</h4>
-
 		<div class="row" id="website">
+				<figure class="col-sm-4">
+				  <a href="http://livingbook.kr"><h4>Livingbook</h4></a>
+					  <a data-toggle="modal" data-target="#firstModal"> <img id="myImg" src="images/LivingbookWebsite.jpg" class="img-responsive"></a>
 
-			<figure class="col-sm-4">
-				<a href="http://livingbook.kr"><h4>Livingbook</h4></a>
-				<img id="myImg" src="images/LivingbookWebsite.jpg" class="img-responsive">
-				<div id="myModal" class="modal" role="dialog">
-					<div class="modal-dialog modal-lg">
-						<!-- Modal content -->
-						<span class="close" onclick="getElementById('modal').style.display='none'">&times;</span>
-						<img class="modal-content" id="livingbookImg">
-						<p>A wordpress website I made for the Korean publishing company Livingbook</p>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<div class="modal fade" id="firstModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-lg" role="document">
+							<!-- Modal content -->
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+
+								<img class="modal-content" id="livingbookImg" src="images/LivingbookWebsite.jpg">
+
+							<p>A wordpress website I made for the Korean publishing company Livingbook</p>
+							<div class="modal-footer">
+        				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      				</div>
 						</div>
 					</div>
-				</div>
-				<p>A wordpress website I made for the Korean publishing company Livingbook</p>
-			</figure>
+					<p>A wordpress website I made for the Korean publishing company Livingbook</p>
+				</figure>
 
-			<figure class="col-sm-4">
-				<h4>Login Page</h4>
-				<img id="myImg2" src="images/Login.jpg" class="img-responsive">
-				<div id="myModal2" class="modal" role="dialog">
-					<div class="modal-dialog modal-lg">
-						<!-- Modal content -->
-						<span class="close" onclick="getElementById('modal').style.display='none'">&times;</span>
-						<img class="modal-content" id="loginImg">
-						<p>A wordpress website I made for the Korean publishing company Livingbook</p>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+<!-- Login Page Modal Image -->
+				<figure class="col-sm-4">
+          <h4>Login Page</h4>
+          <a data-toggle="modal" data-target="#secondModal"> <img id="myImg2" src="images/Login.jpg" class="img-responsive"></a>
+			<!-- Modal -->
+						<div class="modal fade" id="secondModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+								<!-- modal content -->
+						    <div class="modal-content">
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+
+							<img class="modal-content" id="loginImg" src="images/Login.jpg">
+						    </div>
+						  </div>
 						</div>
-					</div>
+          <p>A CSS login page I made for a class project</p>
+				</figure>
+
+				<figure class="col-sm-4">
+          <h4>Furniture Store Homepage</h4>
+					<a data-toggle="modal" data-target="#thirdModal"> <img id="myImg3" src="images/FurnitureWebsite.jpg" class="img-responsive"></a>
+			<!-- Modal -->
+						<div class="modal fade" id="thirdModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-lg" role="document">
+								<!-- modal content -->
+								<div class="modal-content">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+
+							<img class="modal-content" id="furnitureImg" src="images/FurnitureWebsite.jpg">
+								</div>
+							</div>
+						</div>
+          <p>A mock furniture store homepage I made for a class project</p>
+				</figure>
+
 				</div>
-				<p>A CSS login page I made for a class project</p>
-			</figure>
-
-			<figure class="col-sm-4">
-				<h4>Furniture Store Homepage</h4>
-				<img src="images/FurnitureWebsite.jpg" class="img-responsive">
-				<p>A mock furniture store homepage I made for a class project</p>
-			</figure>
-
-			</div>
 	</section>
 
 	<footer class="container" id="footer">

@@ -162,22 +162,15 @@ header h3 {
 }
 
 /* modals */
-#myImg {
+#myImg, #myImg2, #myImg3 {
 
     cursor: pointer;
     transition: 0.3s;
 }
 
 #myImg:hover {opacity: 0.5;}
-
-#myImg2 {
-
-    cursor: pointer;
-    transition: 0.3s;
-}
-
 #myImg2:hover {opacity: 0.5;}
-
+#myImg3:hover {opacity: 0.5;}
 
 /* The Modal (background) */
 .modal {
