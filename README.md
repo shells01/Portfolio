@@ -1,3 +1,3 @@
 This is my first portfolio website that I created with HTML and CSS. It showcases my design and web-design works. 
 
-Find my LinkedIn profile here: LinkedIn: https://www.linkedin.com/in/shelly-ahn-93a13b122/
+Find my LinkedIn profile here: LinkedIn: https://www.linkedin.com/in/shellyahn
